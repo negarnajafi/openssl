@@ -1,0 +1,2 @@
+openssl req -new -newkey rsa:2048 -nodes -keyout pkey.pem -out csr.pem
+Generating a 2048 bit RSA private key
