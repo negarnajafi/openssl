@@ -1,3 +1,6 @@
 openssl req -new -newkey rsa:2048 -nodes -keyout pkey.pem -out csr.pem
 Generating a 2048 bit RSA private key
 writing new private key to 'pkey.pem
+csr--> certificate signing request
+rsa:2048 --> create key 2048 byte
+
