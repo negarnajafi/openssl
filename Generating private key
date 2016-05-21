@@ -3,4 +3,4 @@ Generating a 2048 bit RSA private key
 writing new private key to 'pkey.pem
 csr--> certificate signing request
 rsa:2048 --> create key 2048 byte
-
+-out csr.pem -- csr ijad shode ra daron file csr.pem save mikone
