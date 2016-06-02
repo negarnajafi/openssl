@@ -16,6 +16,6 @@ openssl req -text -noout -in csr.pem
 req -text -- darkhast nemayesh file csr.pem
 openssl x509 -text -noout -in cert.pem
 mohtavaye yek gavahiname ra ke yek CA an ra taeed karde nemayesh midahad
-
+openssl x509 -in cert.pem -noout --in cert.pem -issuer_hash
 
 
