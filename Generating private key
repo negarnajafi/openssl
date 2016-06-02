@@ -6,3 +6,5 @@ rsa:2048 --> create key 2048 byte
 -out csr.pem -- csr ijad shode ra daron file csr.pem save mikone
 in csr ijad shode ra baraye ijad va daryaft yek emzaye amn be hek markaze tolid gavahi ersal konim 
 openssl req -x509 -days 365 -in csr.pem -key pkey.pem -out cert.pem
+-x509 gavahi self-sign ra ijad mikonad
+-day 365 tarikh enghezaye gavahi ast
