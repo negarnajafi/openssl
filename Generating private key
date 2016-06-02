@@ -8,3 +8,5 @@ in csr ijad shode ra baraye ijad va daryaft yek emzaye amn be hek markaze tolid 
 openssl req -x509 -days 365 -in csr.pem -key pkey.pem -out cert.pem
 -x509 gavahi self-sign ra ijad mikonad
 -day 365 tarikh enghezaye gavahi ast
+-in csr.pem -- az file csr.pem darkhast gavahi ra mikhanad
+-key pkey.pem -- kelid khososi ra az in file mikhanad
