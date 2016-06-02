@@ -12,5 +12,10 @@ openssl req -x509 -days 365 -in csr.pem -key pkey.pem -out cert.pem
 -key pkey.pem -- kelid khososi ra az in file mikhanad
 -out cert.pem -- dar in file gavahi self-sgin tolid sode garar migirad
 ls -- pas az etmam dastor ba estefade az dastor ls mitavan file cert.pem ijad shode ra dar dayrectory did
+openssl req -text -noout -in csr.pem
+req -text -- darkhast nemayesh file csr.pem
+openssl x509 -text -noout -in cert.pem
+mohtavaye yek gavahiname ra ke yek CA an ra taeed karde nemayesh midahad
+
 
 
